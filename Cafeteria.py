@@ -58,8 +58,6 @@ st.set_page_config("Quick Meal","QUICK MEAL.png",'centered')
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
-payment_link= "https://paystack.com/pay/n3dypl0pnm"
-
 def gen_id():
     unique_code = str(uuid1())
     global order_id
@@ -442,9 +440,20 @@ if submit_order:
 
     st.markdown("""
         <form>
-            <button class='btn'><a href="https://paystack.com/pay/n3dypl0pnm"> Pay<a/></button>
+            <button class='btn'><a href="https://paystack.com/pay/quickmeal"> Pay <a/></button>
         </form>
     """,unsafe_allow_html=True)
+
+    
+
+
+ 
+                     
+
+
+        
+
+
 
     
 
