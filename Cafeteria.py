@@ -54,7 +54,7 @@ a{
 """
 
 
-st.set_page_config("Quick Meal","🍲",'centered')
+st.set_page_config("Quick Meal","QUICK MEAL.png",'centered')
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
