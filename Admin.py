@@ -27,7 +27,7 @@ footer{
 """
 
 
-st.set_page_config("Quick Meal Admin",'centered')
+st.set_page_config("Quick Meal Admin","QUICK MEAL.png",'centered')
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
@@ -73,6 +73,12 @@ with form:
             get_id()
         except ValueError:
             st.warning('Enter a valid order id')
+
+
+
+
+
+    
 
 
 
